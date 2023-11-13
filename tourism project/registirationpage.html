@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/register.css"> 
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,800&family=Roboto+Slab:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    
+  
+    <title>Signup</title>
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
+        <div class="container">
+          <a class="navbar -brand" href="#"> <img src="logo.png" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>>
+          <div class="navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link p-lg-3 active" aria-current="page" href="Homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-lg-3" href="#">service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-lg-3" href="#">about</a>
+              </li>
+             
+            </ul>
+            <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+           
+            
+
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+<div class="formm d-flex justify-content-center   ">
+  <div id="error"></div>
+  <form id="form" name="form1" >
+
+  <div class="mb-3" >
+    <label for="username" class="form-label" style="margin-top: 20px;"> Name</label>
+    <input id="username" name="username" type="text"  class="form-control" required>
+   
+  </div>
+ 
+  <div class="mb-3" >
+    <label for="email" class="form-label">Email</label>
+    <input id="email"  name="email" type="email"  class="form-control" placeholder="Enter Your Email"  required>
+    
+  </div>
+  <div class="mb-3" >
+    <label for="password" class="form-label">Password</label>
+    <input id="password" name="password" type="password"  class="form-control" placeholder="Enter your password" required>
+    
+  </div>
+
+  <div class="mb-3">
+    <label for="password2" class="form-label"> Confirm password</label>
+    <input id="password2" name="password2" type="password" class="form-control" placeholder="Confirm your password" required >
+   
+  </div>
+
+
+   <div class="mb-3">
+    <label for="Number" class="form-label">Number</label>
+    <input type="tel" class="form-control" id="Number" placeholder="0123456789">
+   
+  </div>
+  
+  <div class="mb-3">
+    <label for="age" class="form-label">Age</label>
+    <input type="number" class="form-control" id="age">
+   
+  </div>
+  <div class="mb-3">
+    <label for="Address" class="form-label"> Address </label>
+    <input type="text" class="form-control" id="Address" placeholder="Type your address here" >
+    
+  </div>
+  <a class="btn btn-primary" href="Loginpage.html" role="button" style="margin-bottom: 20px; ">Login</a> 
+
+  <button type="submit" class="btn btn-primary" style="margin-bottom: 20px;"   >SignUp</button>
+  <a class="btn btn-primary" href="#" role="button" style="margin-bottom: 20px;"   >ForgetPassword</a>
+
+</form>
+
+    </div>
+
+
+    <!-- onclick="CorrectformateValidate(document.RegForm.Email)"/ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="footer pt-5 pb-5 text-center text-md-start">
+        <div class="container">
+          <div class="row">
+           <div class="col-md-6 col-lg-4">
+             <div class="info mb-5">
+               <img class="mb-4" src="logo.png" alt=""/>
+               
+              
+             </div>
+           </div>
+           <div class="col-md-6 col-lg-2">
+             <div class="links">
+               <h5 class="text-light">Links</h5>
+               <ul class="list-unstyled lh-lg text-white-50">
+                <li>Home</li>
+                <li>Our Services</li>
+               </ul>
+             </div>
+             </div>
+             <div class="col-md-6 col-lg-2">
+              <div class="links">
+                <h5 class="text-light">About Us</h5>
+                <ul class="list-unstyled lh-lg text-white-50">
+                 <li>sign in</li>
+                 <li>Register</li>
+                 <li>About Us</li>
+                </ul>
+              </div>
+             </div>
+             <div class="col-md-6 col-lg-4">
+               <div class="contact">
+                
+                     <ul class="d-flex mt-5 list-unstyled gap-3">
+                      <li>
+                        <a class="d-block text-light" href="#"
+                          ><i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="d-block text-light" href="#"
+                          ><i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="d-block text-light" href="#"
+                          ><i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="d-block text-light" href="#"
+                          ><i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i
+                        ></a>
+                      </li>
+                     </ul>
+                  </div>
+             </div>
+           </div>
+          </div>
+        </div>     
+
+        <script src="project.js" ></script>
+
+</body>
+</html>
